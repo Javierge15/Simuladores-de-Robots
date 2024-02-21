@@ -1,4 +1,5 @@
 Autor: Javier Gómez Eguizábal
+
 Fecha: 21/12/24
 
 ## DIMENSIONES DEL MAPA

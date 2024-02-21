@@ -1,0 +1,374 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/solids/protos/SolidBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.5890295077267117 -0.599431818197776 -0.5419646984438528 4.1421734949599225
+  position 4.145455612392958 6.915479169572258 21.569518966224386
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  translation 5 6 0
+  size 10 12
+  tileSize 2 2
+}
+SolidBox {
+  translation 0.5 0.5 0.5
+  name "box_0_0"
+  size 1 1 1
+}
+SolidBox {
+  translation 0.5 1.5 0.5
+  name "box_0_1"
+  size 1 1 1
+}
+SolidBox {
+  translation 0.5 2.5 0.5
+  name "box_0_2"
+  size 1 1 1
+}
+SolidBox {
+  translation 0.5 3.5 0.5
+  name "box_0_3"
+  size 1 1 1
+}
+SolidBox {
+  translation 0.5 4.5 0.5
+  name "box_0_4"
+  size 1 1 1
+}
+SolidBox {
+  translation 0.5 5.5 0.5
+  name "box_0_5"
+  size 1 1 1
+}
+SolidBox {
+  translation 0.5 6.5 0.5
+  name "box_0_6"
+  size 1 1 1
+}
+SolidBox {
+  translation 0.5 7.5 0.5
+  name "box_0_7"
+  size 1 1 1
+}
+SolidBox {
+  translation 0.5 8.5 0.5
+  name "box_0_8"
+  size 1 1 1
+}
+SolidBox {
+  translation 0.5 9.5 0.5
+  name "box_0_9"
+  size 1 1 1
+}
+SolidBox {
+  translation 0.5 10.5 0.5
+  name "box_0_10"
+  size 1 1 1
+}
+SolidBox {
+  translation 0.5 11.5 0.5
+  name "box_0_11"
+  size 1 1 1
+}
+SolidBox {
+  translation 1.5 0.5 0.5
+  name "box_1_0"
+  size 1 1 1
+}
+SolidBox {
+  translation 1.5 8.5 0.5
+  name "box_1_8"
+  size 1 1 1
+}
+SolidBox {
+  translation 1.5 9.5 0.5
+  name "box_1_9"
+  size 1 1 1
+}
+SolidBox {
+  translation 1.5 10.5 0.5
+  name "box_1_10"
+  size 1 1 1
+}
+SolidBox {
+  translation 1.5 11.5 0.5
+  name "box_1_11"
+  size 1 1 1
+}
+SolidBox {
+  translation 2.5 0.5 0.5
+  name "box_2_0"
+  size 1 1 1
+}
+SolidBox {
+  translation 2.5 8.5 0.5
+  name "box_2_8"
+  size 1 1 1
+}
+SolidBox {
+  translation 2.5 9.5 0.5
+  name "box_2_9"
+  size 1 1 1
+}
+SolidBox {
+  translation 2.5 10.5 0.5
+  name "box_2_10"
+  size 1 1 1
+}
+SolidBox {
+  translation 2.5 11.5 0.5
+  name "box_2_11"
+  size 1 1 1
+}
+SolidBox {
+  translation 3.5 0.5 0.5
+  name "box_3_0"
+  size 1 1 1
+}
+SolidBox {
+  translation 3.5 6.5 0.5
+  name "box_3_6"
+  size 1 1 1
+}
+SolidBox {
+  translation 3.5 7.5 0.5
+  name "box_3_7"
+  size 1 1 1
+}
+SolidBox {
+  translation 3.5 8.5 0.5
+  name "box_3_8"
+  size 1 1 1
+}
+SolidBox {
+  translation 3.5 9.5 0.5
+  name "box_3_9"
+  size 1 1 1
+}
+SolidBox {
+  translation 3.5 10.5 0.5
+  name "box_3_10"
+  size 1 1 1
+}
+SolidBox {
+  translation 3.5 11.5 0.5
+  name "box_3_11"
+  size 1 1 1
+}
+SolidBox {
+  translation 4.5 0.5 0.5
+  name "box_4_0"
+  size 1 1 1
+}
+SolidBox {
+  translation 4.5 3.5 0.5
+  name "box_4_3"
+  size 1 1 1
+}
+SolidBox {
+  translation 4.5 8.5 0.5
+  name "box_4_8"
+  size 1 1 1
+}
+SolidBox {
+  translation 4.5 11.5 0.5
+  name "box_4_11"
+  size 1 1 1
+}
+SolidBox {
+  translation 5.5 0.5 0.5
+  name "box_5_0"
+  size 1 1 1
+}
+SolidBox {
+  translation 5.5 3.5 0.5
+  name "box_5_3"
+  size 1 1 1
+}
+SolidBox {
+  translation 5.5 8.5 0.5
+  name "box_5_8"
+  size 1 1 1
+}
+SolidBox {
+  translation 5.5 11.5 0.5
+  name "box_5_11"
+  size 1 1 1
+}
+SolidBox {
+  translation 6.5 0.5 0.5
+  name "box_6_0"
+  size 1 1 1
+}
+SolidBox {
+  translation 6.5 1.5 0.5
+  name "box_6_1"
+  size 1 1 1
+}
+SolidBox {
+  translation 6.5 2.5 0.5
+  name "box_6_2"
+  size 1 1 1
+}
+SolidBox {
+  translation 6.5 3.5 0.5
+  name "box_6_3"
+  size 1 1 1
+}
+SolidBox {
+  translation 6.5 4.5 0.5
+  name "box_6_4"
+  size 1 1 1
+}
+SolidBox {
+  translation 6.5 5.5 0.5
+  name "box_6_5"
+  size 1 1 1
+}
+SolidBox {
+  translation 6.5 11.5 0.5
+  name "box_6_11"
+  size 1 1 1
+}
+SolidBox {
+  translation 7.5 0.5 0.5
+  name "box_7_0"
+  size 1 1 1
+}
+SolidBox {
+  translation 7.5 1.5 0.5
+  name "box_7_1"
+  size 1 1 1
+}
+SolidBox {
+  translation 7.5 2.5 0.5
+  name "box_7_2"
+  size 1 1 1
+}
+SolidBox {
+  translation 7.5 3.5 0.5
+  name "box_7_3"
+  size 1 1 1
+}
+SolidBox {
+  translation 7.5 11.5 0.5
+  name "box_7_11"
+  size 1 1 1
+}
+SolidBox {
+  translation 8.5 0.5 0.5
+  name "box_8_0"
+  size 1 1 1
+}
+SolidBox {
+  translation 8.5 1.5 0.5
+  name "box_8_1"
+  size 1 1 1
+}
+SolidBox {
+  translation 8.5 2.5 0.5
+  name "box_8_2"
+  size 1 1 1
+}
+SolidBox {
+  translation 8.5 3.5 0.5
+  name "box_8_3"
+  size 1 1 1
+}
+SolidBox {
+  translation 8.5 11.5 0.5
+  name "box_8_11"
+  size 1 1 1
+}
+SolidBox {
+  translation 9.5 0.5 0.5
+  name "box_9_0"
+  size 1 1 1
+}
+SolidBox {
+  translation 9.5 1.5 0.5
+  name "box_9_1"
+  size 1 1 1
+}
+SolidBox {
+  translation 9.5 2.5 0.5
+  name "box_9_2"
+  size 1 1 1
+}
+SolidBox {
+  translation 9.5 3.5 0.5
+  name "box_9_3"
+  size 1 1 1
+}
+SolidBox {
+  translation 9.5 4.5 0.5
+  name "box_9_4"
+  size 1 1 1
+}
+SolidBox {
+  translation 9.5 5.5 0.5
+  name "box_9_5"
+  size 1 1 1
+}
+SolidBox {
+  translation 9.5 6.5 0.5
+  name "box_9_6"
+  size 1 1 1
+}
+SolidBox {
+  translation 9.5 7.5 0.5
+  name "box_9_7"
+  size 1 1 1
+}
+SolidBox {
+  translation 9.5 8.5 0.5
+  name "box_9_8"
+  size 1 1 1
+}
+SolidBox {
+  translation 9.5 9.5 0.5
+  name "box_9_9"
+  size 1 1 1
+}
+SolidBox {
+  translation 9.5 10.5 0.5
+  name "box_9_10"
+  size 1 1 1
+}
+SolidBox {
+  translation 9.5 11.5 0.5
+  name "box_9_11"
+  size 1 1 1
+}
+E-puck {
+  translation 1 1.05 0
+  controller "Sigue_Paredes_D"
+  turretSlot [
+    GPS {
+    }
+    InertialUnit {
+    }
+    DistanceSensor {
+      rotation 0 0 1 -1.5708
+      name "distance_sensor_derecha"
+    }
+    DistanceSensor {
+      name "distance_sensor_frontal"
+    }
+    DistanceSensor {
+      rotation 0 0 1 1.5708
+      name "distance_sensor_izquierda"
+    }
+  ]
+}

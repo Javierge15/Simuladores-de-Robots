@@ -16,6 +16,10 @@ Fecha: 03/03/24
   <img src="https://github.com/Javierge15/Simuladores-de-Robots/assets/148269271/b5b23037-ea4d-4707-8bff-b934f2c821ae" width = 30%/>
 </p>
 
+<p align="center">
+  <img src="https://github.com/Javierge15/Simuladores-de-Robots/assets/148269271/91c935d2-e23d-4c95-b3cf-cad2dfdfc6d4" width = 60%/>
+</p>
+
 
 ## ALGORITMO
 Se ha diseñado un plugin de Gazebo escrito en C++. Este plugin, llamado "MyWheels", se encarga de controlar un robot pioneer en el entorno de simulación de Gazebo. El código implementa el control del movimiento de las ruedas para que el modelo siga una ruta predefinida en el espacio tridimensional y sea capaz de llegar a la meta.
@@ -131,5 +135,5 @@ namespace gazebo
     GZ_REGISTER_MODEL_PLUGIN(MyWheels)
 }
 ```
-
+## VIDEOS
 ### [VIDEO-map.world](https://youtu.be/4jBIY4Zbtvw)

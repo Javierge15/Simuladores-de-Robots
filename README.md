@@ -20,4 +20,12 @@ Gazebo es un simulador de código abierto utilizado principalmente para crear en
 </p>
 
 
+## 3. GYMNASIUM
+[GYMNASIUM- Pulsar aqui para explicacion](GYMNASIUM.md)
+
+El simulador de robots Gymnasium es una herramienta de código abierto desarrollada por OpenAI que ofrece una gran variedad de entornos para probar y entrenar algoritmos de aprendizaje por refuerzo en robots. Permite experimentar con diferentes métodos de control antes de implementarlos en robots fisicos.
+
+<p align="center">
+  <img src="https://github.com/Javierge15/Simuladores-de-Robots/assets/148269271/7f1e2300-e3a3-47b6-8bd1-5686b957ae10" width = 40%/>
+</p>
 

@@ -159,6 +159,8 @@ print("HA LLEGADO A LA POSICION OBJETIVO")
 
 ### gym.py & map1
 
+https://youtu.be/GJMQQUQM4DQ
+
 ### gym2.py & map2
 
 

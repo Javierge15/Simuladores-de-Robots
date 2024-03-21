@@ -97,70 +97,8 @@ if CONT==2:
     print("HA LLEGADO A LA POSICION OBJETIVO")
 ```
 
-### CODIGO 2: gym2.py
-
-```bash
-#BFS
-
-import gymnasium as gym
-import gymnasium_csv
-import numpy as np
-import time
-
-# Constantes y configuraciones iniciales
-UP = 0
-UP_RIGHT = 1
-RIGHT = 2
-DOWN_RIGHT = 3
-DOWN = 4
-DOWN_LEFT = 5
-LEFT = 6
-UP_LEFT = 7
-SIM_PERIOD_MS = 500.0
-
-# Crear entorno de gym
-env = gym.make('gymnasium_csv-v0',
-               render_mode='human',  # "human", "text", None
-               inFileStr='../assets/map2.csv',
-               initX=2,
-               initY=2,
-               goalX=8,
-               goalY=10)
-
-# Función para encontrar el camino hacia la meta utilizando búsqueda en anchura
-def find_path(env):
-    start_state = env.reset()
-    queue = [(start_state, [])]
-
-    while queue:
-        state, path = queue.pop(0)
-        if env.is_goal(state):
-            return path
-        for action in range(env.action_space.n):
-            next_state, _, _, _ = env.step(action)
-            if next_state is not None:
-                queue.append((next_state, path + [action]))
-                env.undo_step()
-
-# Encontrar el camino hacia la meta
-path = find_path(env)
-
-# Seguir el camino hacia la meta
-for action in path:
-    observation, reward, terminated, truncated, info = env.step(action)
-    env.render()
-    time.sleep(SIM_PERIOD_MS / 500.0)
-
-print("HA LLEGADO A LA POSICION OBJETIVO")
-
-```
-
-## VIDEOS
+## VIDEO
 
 ### gym.py & map1
 
 https://youtu.be/GJMQQUQM4DQ
-
-### gym2.py & map2
-
-
